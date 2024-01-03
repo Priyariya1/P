@@ -4,7 +4,8 @@ import Chat from "../assets/portfolio/chat.png";
 import Ecommerce from "../assets/portfolio/efirst.png";
 import Quiz from "../assets/portfolio/quiz.png";
 import Todo from "../assets/portfolio/to.png";
-import Food from "../assets/portfolio/weather.png";
+import Weather from "../assets/portfolio/weather.png";
+import Text from '../assets/portfolio/text.png';
 
 const Portfolio = () => {
 
@@ -23,24 +24,7 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           
-              <div className="shadow-md shadow-gray-600 rounded-lg">
-                <img
-                  src={Calculator}
-                  alt=""
-                  className="rounded-md duration-200 hover:scale-105"
-                />
-                <div className="flex items-center justify-center">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                    Demo
-                  </button>
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a 
-                     href='https://github.com/Priyariya1/Calculater' rel='noreferrer'>
-                    Code
-                    </a>
-                  </button>
-                </div>
-              </div>
+         
             
               <div className="shadow-md shadow-gray-600 rounded-lg">
                 <img
@@ -123,7 +107,7 @@ const Portfolio = () => {
           
               <div className="shadow-md shadow-gray-600 rounded-lg">
                 <img
-                  src={Food}
+                  src={Weather}
                   alt=""
                   className="rounded-md duration-200 hover:scale-105"
                 />
@@ -133,7 +117,27 @@ const Portfolio = () => {
                   </button>
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                   <a 
-                     href='https://github.com/Priyariya1/Ordering-food' rel='noreferrer'>
+                     href='https://github.com/Priyariya1/weather' rel='noreferrer'>
+                    Code
+                    </a>
+                  </button>
+                </div>
+              </div>
+
+
+              <div className="shadow-md shadow-gray-600 rounded-lg">
+                <img
+                  src={Text}
+                  alt=""
+                  className="rounded-md duration-200 hover:scale-105"
+                />
+                <div className="flex items-center justify-center">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                  <a 
+                     href='https://github.com/Priyariya1/Text-editor' rel='noreferrer'>
                     Code
                     </a>
                   </button>
